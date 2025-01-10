@@ -1,3 +1,4 @@
+com\expandTesting\dataproviders\LoginData.class
 com\expandTesting\tests\WebInputsTest.class
 com\expnadTesting\listeners\MyListener.class
 com\expandTesting\tests\LoginTest.class

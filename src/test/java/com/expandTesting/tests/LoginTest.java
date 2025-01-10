@@ -33,7 +33,6 @@ public class LoginTest extends SetUp {
 	@Test
 	public void loginTestWithValidCred()
 	{
-		lp.clickOnTlp();
 		lp.enterUsername("practice");
 		lp.enterPassword("SuperSecretPassword!");
 		lp.clickOnLogin();
@@ -49,8 +48,8 @@ public class LoginTest extends SetUp {
    @Owner("Shoaib")
 	@Test
 	public void loginTestWithInValidCred()
-	{
-		lp.clickOnTlp();
+	{   
+	    lp.clickOnTlp();
 		lp.enterUsername("practicex");
 		lp.enterPassword("SuperSecretPassword!x");
 		lp.clickOnLogin();

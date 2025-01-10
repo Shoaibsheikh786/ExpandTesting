@@ -5,6 +5,7 @@
     <classes>
       <class name="com.expandTesting.tests.LoginTest">
         <methods>
+          <include name="loginTestWithInValidCred"/>
           <include name="loginTestWithValidCred"/>
         </methods>
       </class> <!-- com.expandTesting.tests.LoginTest -->

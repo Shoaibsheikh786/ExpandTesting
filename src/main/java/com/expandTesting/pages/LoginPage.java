@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.expandTesting.base.SetUp;
 import com.expandTesting.utils.EleInt;
+import com.expandTesting.utils.Waits;
 
 public class LoginPage  extends SetUp{
 
@@ -53,7 +54,8 @@ public class LoginPage  extends SetUp{
 	private WebElement loginBtn;
 	
 	public void clickOnLogin()
-	{
+	{   
+		Waits.waitforSeconds(3);
 		EleInt.click(loginBtn);
 	}
 	

@@ -1,4 +1,5 @@
 com\expandTesting\pages\AutomationTipsPage.class
+com\expandTesting\utils\ExcelUtility.class
 com\expandTesting\pages\LoginPage.class
 com\expandTesting\utils\Dd.class
 com\expandTesting\Enum\TimeUnits.class
